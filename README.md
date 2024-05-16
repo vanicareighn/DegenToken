@@ -9,15 +9,7 @@ The DegenToken smart contract is an ERC20 token designed for an in-game economy 
 
 The first requirement to run this program is to use Remix Ethereum IDE (https://remix.ethereum.org/) and create a new files and take note that ".sol" is the correct file format for running a Solidity Program and compile the contract by selecting the appropriate Solidity compiler version (e.g., 0.8.0 or above) and clicking the "Compile DegenToken.sol" button.
 
-To interact with the DegenToken contract and leverage its functionalities, you can use Remix Ethereum IDE. Begin by creating a new ".sol" file and compiling it using a Solidity compiler version 0.8.0 or above.
-
-The DegenToken contract, along with the Ownable.sol contract created alongside it, provide the necessary infrastructure for managing ownership and executing restricted functions.
-
-After compiling the contract, deploy it by selecting the Ethereum icon on the left sidebar. Once deployed, you can directly interact with its functions within the Remix IDE environment.
-
-The mint function facilitates token minting to a specified account, while the burn function allows burning tokens from the sender's account. Using the setItemPrice function, you can establish the price of items in the in-game store by specifying the item ID and the price in tokens.
-
-To redeem items from the in-game store, utilize the redeemItem function along with the corresponding item ID. Monitor the contract's behavior in the Remix IDE's "Console" tab, confirming successful function calls through emitted events.
+To interact with the DegenToken contract and leverage its functionalities, you can use Remix Ethereum IDE. Begin by creating a new ".sol" file and compiling it using a Solidity compiler version 0.8.0 or above. The DegenToken contract, along with the Ownable.sol contract created alongside it, provide the necessary infrastructure for managing ownership and executing restricted functions. After compiling the contract, deploy it by selecting the Ethereum icon on the left sidebar. Once deployed, you can directly interact with its functions within the Remix IDE environment. The mint function facilitates token minting to a specified account, while the burn function allows burning tokens from the sender's account. Using the setItemPrice function, you can establish the price of items in the in-game store by specifying the item ID and the price in tokens. To redeem items from the in-game store, utilize the redeemItem function along with the corresponding item ID. Monitor the contract's behavior in the Remix IDE's "Console" tab, confirming successful function calls through emitted events.
 
 Experiment with various inputs to understand how the contract handles scenarios such as insufficient balances or invalid item prices. Should any issues arise during contract interaction, utilize Remix IDE's debugger and console to inspect state changes and debug effectively.
 
